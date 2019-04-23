@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.post('/', (req, res) => {
-    const payload = req.body;
+app.post('/', async (req, res) => {
+    const payload = await req.body;
     console.log(payload);
     res.json(payload);
 });
