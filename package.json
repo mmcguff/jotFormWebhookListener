@@ -1,0 +1,16 @@
+{
+  "name": "jotformwebhooklistener",
+  "version": "1.0.0",
+  "description": "A webhook listner for triggering events that occur from jotforms.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Matthew McGuff",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
